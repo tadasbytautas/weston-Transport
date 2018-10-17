@@ -1,26 +1,7 @@
-/* styles.css */
-/*
-html, body {
-  height: 100%;
-} */
-/* .carousel .item {
-  height: 300px;
+h3 {
+  text-align: center;
 }
 
-.item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px;
-    max-height: 300px;
-} */
+.navbar {
 
-.carousel-item>img{
-    max-height: 700px;
-}
-
-@media (max-width: 688px) {
-    .carousel-item>img {
-        max-height: 200px;
-    }
 }
