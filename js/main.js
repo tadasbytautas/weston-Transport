@@ -41,6 +41,6 @@ $(document).ready(function() {
        $('.navbar').removeClass('bg-transparent').addClass('bg-light');
     }
     else {
-       $('.navbar').addClass('bg-transparent');
+       // $('.navbar').addClass('bg-transparent');
     }
 });

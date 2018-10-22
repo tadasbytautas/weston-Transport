@@ -1,6 +1,18 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+#h1 {
+  text-align: center;
+  margin-top: 250px;
+  z-index: 1;
+  background-color: rgba(58, 79, 74, 0.2);
+  /* border: solid 1px black; */
+}
+
+#carousel {
+  margin-top: -325px;
+  z-index: -1;
+}
 
 .nav-link {
   padding-left: 50px;
@@ -18,6 +30,14 @@ body {
 
 .nav-item {
   padding: 10px;
+}
+
+.navbar-fixed-top {
+  top: -70px; /* you'll have to figure out the exact number here */
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: relative; /* this can also be static */
 }
 
 
