@@ -15,12 +15,15 @@ body {
   width: 100%;
 }
 
-/* Transision effect for nav bar
-.navbar.bg-light {
-  transition: background-color 1s ease 0s;
-} */
+.fas.fa-phone {
+  padding-left: 7rem;
+  font-size: 16px;
+  color: #cccccc;
+}
 
-/* CARUSEL */
+#phoneNumber {
+  font-family: 'Montserrat', sans-serif;
+}
 
 .owl-carousel {
   margin-top: 79px;
@@ -43,7 +46,12 @@ body {
 }
 
 .fleet {
-text-align: center;
+  text-align: center;
+}
+
+.fleet img {
+  width: 100%;
+  height: 100%;
 }
 
 @media only screen and (max-width: 992px) {
