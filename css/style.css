@@ -33,7 +33,8 @@ body {
 /* BODY SECTIONS */
 
 .about {
-  background: #dedede;
+  background: #f2f2f2;
+  text-align: center;
 }
 
 .about h1, h3 {
@@ -42,16 +43,7 @@ body {
 }
 
 .fleet {
-  background-color: rgba(0, 0, 0, 0.5);
-  background-repeat: no-repeat;
-  /* background-image: url(../img/1.jpg); */
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  opacity: 1;
-  visibility: inherit;
-  z-index: 20;
+text-align: center;
 }
 
 @media only screen and (max-width: 992px) {
