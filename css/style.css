@@ -2,7 +2,16 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* NAVIGATIOn BAR */
+/* NAVIGATION BAR */
+
+/* #navlogo {
+  width: 100%;
+} */
+
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
 
 .nav-link {
   padding-left: 50px;
@@ -11,13 +20,17 @@ body {
   color: #dedede;
 }
 
-#navlogo {
-  width: 100%;
+.nav-item i {
+  width: auto;
+}
+
+.navbar-text {
+  padding-left: 15px;
 }
 
 .fas.fa-phone {
-  padding-left: 7rem;
-  font-size: 16px;
+  /* padding-left: 7rem; */
+  font-size: 0.7rem;
   color: #cccccc;
 }
 
@@ -50,12 +63,29 @@ body {
 }
 
 .fleet img {
+  display: block;
+  overflow: auto;
   width: 100%;
-  height: 100%;
+}
+
+@media only screen and (max-width: 360px) {
+  #navlogo {
+    width: 100%;
+  }
+
+  .navbar-brand {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .navbar-text {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 992px) {
-  #navlogo {
-    width: 75%;
+  .fleet img {
+    padding-bottom: 2rem;
   }
 }
