@@ -150,6 +150,7 @@ body {
 #footer {
   background-color: #11213d;
   color: #ffffff;
+  font-size: 0.9rem;
 }
 
 #footer a {
@@ -166,10 +167,6 @@ body {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, #00000000, #740ba8, #00000000);
-}
-
-.hidden {
-  visibility: hidden;
 }
 
 @media (min-width: 576px) {
@@ -206,5 +203,17 @@ body {
 @media only screen and (max-width: 992px) {
   .fleet img {
     padding-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width : 1200px) {
+  #footer {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  #footer {
+    font-size: 1rem;
   }
 }
