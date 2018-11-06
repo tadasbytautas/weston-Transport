@@ -144,7 +144,10 @@ body {
 }
 
 #contactSection img {
-  width: 100%;
+  width: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #footer {
