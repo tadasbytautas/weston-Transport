@@ -28,8 +28,23 @@ body {
   color: black;
 }
 
+.section {
+    position: relative;
+    padding-top: 1rem;
+}
+
+.section > a {
+    position: absolute;
+    top: 5px;
+}
+
 .owl-carousel {
-  margin-top: 79px;
+  /* margin-top: 79px; */
+}
+
+.owl-carousel img {
+  /* display: block; */
+  /* height: 950px; */
 }
 
 .owl-dots {
