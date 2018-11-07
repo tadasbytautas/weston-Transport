@@ -1,5 +1,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  height: 100%;
+}
+
+html {
+  height: 100%;
 }
 
 /* NAVIGATION BAR */
@@ -20,21 +25,11 @@ body {
   padding-left: 50px;
   font-size: .9rem;
   color: black;
-  o
 }
 
 .nav-link:hover {
   opacity: 1;
   color: black;
-}
-
-.owl-carousel {
-  /* margin-top: 79px; */
-}
-
-.owl-carousel img {
-  /* display: block; */
-  /* height: 950px; */
 }
 
 .owl-dots {
@@ -43,6 +38,56 @@ body {
 
 /* BODY SECTIONS */
 
+section {
+  position: relative;
+}
+
+.demo a {
+  position: absolute;
+  bottom: 150px;
+  left: 48%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+
+#section10 a {
+  padding-top: 60px;
+}
+#section10 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 30px;
+  height: 50px;
+  margin-left: -15px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+#section10 a span::before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: sdb10 2s infinite;
+  animation: sdb10 2s infinite;
+  box-sizing: border-box;
+}
 
 .about {
   background: #ffffff;;
@@ -171,11 +216,12 @@ body {
   font-weight: 300;
 }
 
-#contactSection img {
+.contact img {
   width: 45%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 3rem;
 }
 
 #footer {
@@ -215,6 +261,39 @@ body {
   }
 }
 
+@-webkit-keyframes sdb10 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb10 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 @media only screen and (max-width: 360px) {
   #navlogo {
     width: 100%;
@@ -231,6 +310,27 @@ body {
   }
 }
 
+@media only screen and (max-width : 414px) {
+  #top {
+      display: block;
+      height: 87px;
+      visibility: hidden;
+  }
+
+  #aboutSection {
+      display: block;
+      height: 50px;
+      visibility: hidden;
+  }
+
+  #fleetSection {
+      display: block;
+      height: 30px;
+      visibility: hidden;
+  }
+}
+
+
 @media only screen and (max-width: 992px) {
   .fleet img {
     padding-bottom: 2rem;
@@ -246,5 +346,23 @@ body {
 @media only screen and (max-width : 768px) {
   #footer {
     font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width : 1650px) {
+  .demo a {
+    bottom: 75px;
+  }
+}
+
+@media only screen and (max-width : 1500px) {
+  .demo a {
+    bottom: 50px;
+  }
+}
+
+@media only screen and (max-width : 1400px) {
+  .demo a {
+    visibility: hidden;
   }
 }
