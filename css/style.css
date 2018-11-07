@@ -28,16 +28,6 @@ body {
   color: black;
 }
 
-.section {
-    position: relative;
-    padding-top: 1rem;
-}
-
-.section > a {
-    position: absolute;
-    top: 5px;
-}
-
 .owl-carousel {
   /* margin-top: 79px; */
 }
@@ -52,6 +42,8 @@ body {
 }
 
 /* BODY SECTIONS */
+
+
 .about {
   background: #ffffff;;
   text-align: center;
@@ -60,6 +52,27 @@ body {
 .about h1, h3 {
   text-align: center;
   padding-bottom: 0.5rem;
+}
+
+#aboutSection {
+    display: block;
+    height: 70px;
+    margin-top: -70px;
+    visibility: hidden;
+}
+
+#fleetSection {
+    display: block;
+    height: 70px;
+    margin-top: -70px;
+    visibility: hidden;
+}
+
+#galerySection {
+    display: block;
+    height: 70px;
+    margin-top: -70px;
+    visibility: hidden;
 }
 
 .fleet {
