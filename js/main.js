@@ -51,6 +51,16 @@ $(document).ready(function(){
 
 // SCROLL DOWN BUTTON
 
+$(document).ready(function(){
+  $(window).scroll(function() {
+    if ($('body').height() <= ($(window).height() + $(window).scrollTop() - 500)) {
+      $('#section10').fadeOut();
+    }else{
+      $("#section10").fadeIn();
+    }
+  });
+});
+
 $(function() {
   $('a[href*=#]').on('click', function(e) {
     e.preventDefault();
