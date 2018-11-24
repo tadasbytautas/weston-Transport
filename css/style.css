@@ -8,11 +8,11 @@ html {
 }
 
 /* NAVIGATION BAR */
-
 .navbar-brand {
   padding: 0;
   margin: 0;
 }
+
 .nav-link {
   font-weight: 700;
   color: grey;
@@ -37,7 +37,6 @@ html {
 }
 
 /* BODY SECTIONS */
-
 section {
   position: relative;
 }
@@ -51,11 +50,12 @@ section {
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   color: #fff;
-  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  font: normal 400 20px/1 'Josefin Sans', sans-serif;
   letter-spacing: .1em;
   text-decoration: none;
   transition: opacity .3s;
 }
+
 .demo a:hover {
   opacity: .5;
 }
@@ -63,6 +63,7 @@ section {
 #section10 a {
   padding-top: 60px;
 }
+
 #section10 a span {
   position: absolute;
   top: 0;
@@ -74,6 +75,7 @@ section {
   border-radius: 50px;
   box-sizing: border-box;
 }
+
 #section10 a span::before {
   position: absolute;
   top: 10px;
@@ -90,7 +92,8 @@ section {
 }
 
 .about {
-  background: #ffffff;;
+  background: #ffffff;
+  ;
   text-align: center;
 }
 
@@ -100,24 +103,24 @@ section {
 }
 
 #aboutSection {
-    display: block;
-    height: 70px;
-    margin-top: -70px;
-    visibility: hidden;
+  display: block;
+  height: 70px;
+  margin-top: -70px;
+  visibility: hidden;
 }
 
 #fleetSection {
-    display: block;
-    height: 70px;
-    margin-top: -70px;
-    visibility: hidden;
+  display: block;
+  height: 70px;
+  margin-top: -70px;
+  visibility: hidden;
 }
 
 #galerySection {
-    display: block;
-    height: 70px;
-    margin-top: -70px;
-    visibility: hidden;
+  display: block;
+  height: 70px;
+  margin-top: -70px;
+  visibility: hidden;
 }
 
 .fleet {
@@ -134,9 +137,9 @@ section {
   color: #ffffff;
 }
 
-.transbox{
+.transbox {
   padding: 1.5rem;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .fleet img {
@@ -272,29 +275,36 @@ section {
     -webkit-transform: translate(0, 0);
     opacity: 0;
   }
+
   40% {
     opacity: 1;
   }
+
   80% {
     -webkit-transform: translate(0, 20px);
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
 }
+
 @keyframes sdb10 {
   0% {
     transform: translate(0, 0);
     opacity: 0;
   }
+
   40% {
     opacity: 1;
   }
+
   80% {
     transform: translate(0, 20px);
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
@@ -318,24 +328,23 @@ section {
 
 @media only screen and (max-width : 414px) {
   #top {
-      display: block;
-      height: 87px;
-      visibility: hidden;
+    display: block;
+    height: 87px;
+    visibility: hidden;
   }
 
   #aboutSection {
-      display: block;
-      height: 50px;
-      visibility: hidden;
+    display: block;
+    height: 50px;
+    visibility: hidden;
   }
 
   #fleetSection {
-      display: block;
-      height: 30px;
-      visibility: hidden;
+    display: block;
+    height: 30px;
+    visibility: hidden;
   }
 }
-
 
 @media only screen and (max-width: 992px) {
   .fleet img {
