@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   height: 100%;
 }
 
@@ -23,7 +23,7 @@ html {
 
 .navbar-text {
   padding-left: 50px;
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: black;
 }
 
@@ -50,14 +50,14 @@ section {
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   color: #fff;
-  font: normal 400 20px/1 'Josefin Sans', sans-serif;
-  letter-spacing: .1em;
+  font: normal 400 20px/1 "Josefin Sans", sans-serif;
+  letter-spacing: 0.1em;
   text-decoration: none;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
 
 .demo a:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 #section10 a {
@@ -80,7 +80,7 @@ section {
   position: absolute;
   top: 10px;
   left: 50%;
-  content: '';
+  content: "";
   width: 6px;
   height: 6px;
   margin-left: -3px;
@@ -93,11 +93,11 @@ section {
 
 .about {
   background: #ffffff;
-  ;
   text-align: center;
 }
 
-.about h1, h3 {
+.about h1,
+h3 {
   text-align: center;
   padding-bottom: 0.5rem;
 }
@@ -326,7 +326,7 @@ section {
   }
 }
 
-@media only screen and (max-width : 414px) {
+@media only screen and (max-width: 414px) {
   #top {
     display: block;
     height: 87px;
@@ -352,31 +352,31 @@ section {
   }
 }
 
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width: 1200px) {
   #footer {
     font-size: 0.7rem;
   }
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
   #footer {
     font-size: 1rem;
   }
 }
 
-@media only screen and (max-width : 1650px) {
+@media only screen and (max-width: 1650px) {
   .demo a {
     bottom: 75px;
   }
 }
 
-@media only screen and (max-width : 1500px) {
+@media only screen and (max-width: 1500px) {
   .demo a {
     bottom: 50px;
   }
 }
 
-@media only screen and (max-width : 1400px) {
+@media only screen and (max-width: 1400px) {
   .demo a {
     visibility: hidden;
   }
